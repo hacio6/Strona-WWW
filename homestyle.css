@@ -1,0 +1,107 @@
+body
+{
+    background-color: black;
+    color: lightgrey;
+    font-size: 28px;
+    font-family: 'Inconsolata';
+    font-weight: 700;
+}
+
+#pojemnik
+{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nazwa
+{
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 80px;
+    min-height: 100px;
+}
+#menu
+{
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+}
+
+#zdjecie
+{
+    float: left;
+    width: 450px;
+    text-align: center;
+    max-height: 500px;
+}
+
+li
+{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid gray;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+li a
+{
+    display: block;
+    text-decoration: none;
+}
+
+li > a:hover {
+    color:white;
+}
+
+li:hover
+{
+    background-color: #222222;
+    color: white;
+    border: 3px solid white;
+}
+
+li > ul
+{
+    list-style-type:none;
+    padding:5px;
+    margin:25px;
+    display:none;
+}
+li:hover > ul {
+    display:block;
+}
+
+li > ul > li
+{
+    background-color: #211111;
+}
+
+li > ul > li:hover
+{
+    background-color: #222222;
+    color: white;
+    border: 3px solid white;
+}
+
+li > ul > li:hover a
+{
+    color:white;
+}
+li:hover > a {
+    color: white;
+}
+a{color: lightgray;}
+a:link {text-decoration: none}
+a:visited {text-decoration: none}
+a:active {text-decoration: none}
+a:hover {text-decoration: none}
